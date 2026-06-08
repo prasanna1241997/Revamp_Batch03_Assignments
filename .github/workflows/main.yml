@@ -2,8 +2,8 @@ name: Demo pipeline1
 
 on:
   push:
-      branches: ["main"]
+    branches: ["main"]
 
-      jobs:
-        demo1:
-          runs-on: [self-hosted, Wsl]
+jobs:
+  demo1:
+    runs-on: [self-hosted, Wsl]
